@@ -1,0 +1,16 @@
+# Core app
+streamlit
+langchain
+langchain-community
+langchain-google-genai
+langchain-groq
+tavily-python
+pymupdf
+pytesseract
+numpy
+
+# --- Needed for the download/export features (PDF / DOCX / JPEG) ---
+weasyprint         # HTML/CSS -> PDF (pure-python, keeps your theme/CSS)
+python-docx         # write .docx files
+htmldocx            # convert generated HTML -> docx content
+imgkit              # HTML -> JPEG (requires the wkhtmltoimage system binary, see README)
